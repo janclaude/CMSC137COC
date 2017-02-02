@@ -62,6 +62,7 @@ public class GUI extends JFrame implements Constants{
 		barbarian.setName("barbarian");
 		barbarian.setIcon(new ImageIcon("barbarian.png"));
 		barbarian.setBorder(null);
+		barbarianAct = new ActionListener();
 		
 		//archer
 		archer = new JButton();
